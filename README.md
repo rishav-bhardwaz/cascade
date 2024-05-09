@@ -1,39 +1,68 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Cascade - NGO Recognition Project
+
+Cascade is a web application designed to recognize NGOs in a specific area, such as Bhopal, and provide comprehensive information about them in one place. Developed by Rishav Bhardwaz, this project aims to streamline the process of discovering and accessing information about NGOs for users.
+
+## Features
+
+- **NGO Recognition**: Cascade identifies and lists NGOs operating in the designated area.
+- **Comprehensive Information**: Users can access detailed information about each NGO, including their mission, activities, contact details, and more.
+- **Search Functionality**: Users can easily search for specific NGOs based on keywords or categories.
+- **Next.js, TypeScript, and Tailwind CSS**: Cascade is built using modern web development technologies, including Next.js for server-side rendering, TypeScript for static typing, and Tailwind CSS for rapid UI development.
 
 ## Getting Started
 
-First, run the development server:
+To run Cascade locally, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Clone the repository:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   ```
+   git clone https://github.com/rishav-bhardwaz/cascade.git
+   ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. Navigate into the project directory:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+   ```
+   cd cascade
+   ```
 
-## Learn More
+3. Install dependencies:
 
-To learn more about Next.js, take a look at the following resources:
+   ```
+   npm install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. Start the development server:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   ```
+   npm run dev
+   ```
 
-## Deploy on Vercel
+5. Open your browser and navigate to `http://localhost:3000` to view Cascade.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Technologies Used
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# cascade
-# cascade
-# cascade
+- **Next.js**: Next.js is a React framework that enables server-side rendering, routing, and other powerful features.
+- **TypeScript**: TypeScript adds static typing to JavaScript, providing better tooling and catching errors early in development.
+- **Tailwind CSS**: Tailwind CSS is a utility-first CSS framework that allows for rapid UI development by applying pre-defined classes directly in HTML markup.
+
+## Contributing
+
+Contributions to Cascade are welcome! If you'd like to contribute, please follow these guidelines:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and ensure they adhere to the project's coding standards.
+4. Test your changes thoroughly.
+5. Create a pull request with a clear description of your changes.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## About the Developer
+
+Cascade is developed by Rishav Bhardwaz, a passionate web developer dedicated to creating innovative solutions to real-world problems. Connect with Rishav on [LinkedIn](https://www.linkedin.com/in/rishavbhardwaz/) to learn more about his work.
+
+## Acknowledgements
+
+Special thanks to [Next.js](https://nextjs.org/), [TypeScript](https://www.typescriptlang.org/), and [Tailwind CSS](https://tailwindcss.com/) for their amazing tools and documentation that made this project possible.
